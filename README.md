@@ -17,4 +17,4 @@ Note that combining current and forecast data may not be coming through the same
 2. Add API key and city id to telegraf config. Restart telegraf.
 
 # Grafana
-At this point you should be able to create a dashboard with the JSON in this repo and be up and running.
+Update CITYHERE and ZIPCODEHERE in dashboard.json and create new dashboard via Grafanas import function. This is where I'm the least clear about all the steps. If some tries this and runs into issues or knows what the proper way is to share this out, please open an Issue
