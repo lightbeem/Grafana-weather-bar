@@ -12,7 +12,7 @@ Start with bastienwirtz's [aqi_watcher](https://github.com/bastienwirtz/aqi_watc
 
 # Temp, Humidity, Visibility, Wind, Rain, etc
 Note that combining current and forecast data may not be coming through the same API. I haven't spent the time to figure out why I don't have forecast data being capture.
-1. Head to openweather.org for your API key.
+1. Head to openweathermap.org for your API key.
 2. Determine your city_id following [this write up](https://www.dmopress.com/openweathermap-howto/).
 2. Add API key and city id to telegraf config. Restart telegraf.
 
